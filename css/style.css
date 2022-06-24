@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+/*LAS VARIABLES SE IMPORTAN ARRIBA DE TODO*/
+.index main h1 {
+  color: white;
+  background-color: black; }
+
+.index main .primeraSeccion {
+  padding: 1rem;
+  background-color: gray; }
+  .index main .primeraSeccion p {
+    text-align: center;
+    color: yellow; }
+
+.segundaSeccion {
+  font-family: sans-serif;
+  color: blue;
+  background-color: #049A8F; }
+
+nav ul {
+  display: flex; }
+  nav ul li {
+    list-style: none;
+    padding: 1rem; }
+    nav ul li:hover {
+      background-color: cadetblue; }
+    nav ul li a {
+      color: gray; }
+      nav ul li a:active {
+        color: chartreuse; }
+
+@media (min-widht: 850px) {
+  nav ul {
+    flex-direction: column; } }

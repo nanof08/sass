@@ -1,0 +1,26 @@
+nav{
+    ul{
+        display: flex;
+        li{
+            list-style: none;
+            padding: 1rem;
+            &:hover{
+                background-color: cadetblue;
+            }
+            a{
+                color: gray;
+                &:active{
+                    color: chartreuse;
+                }
+            }
+        }
+    }
+}
+
+@media (min-widht: 850px){
+    nav{
+        ul{
+            flex-direction: column;
+        }
+    }
+}
